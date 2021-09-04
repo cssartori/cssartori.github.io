@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Jane Doe</title>
-    <link>https://examplesite.com/</link>
+    <link>https://cssartori.github.io/</link>
     <description>Recent posts from on Jane Doe</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 04 Sep 2021 22:19:41 +0200</lastBuildDate><atom:link href="https://examplesite.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 04 Sep 2021 22:19:41 +0200</lastBuildDate><atom:link href="https://cssartori.github.io/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
