@@ -30,39 +30,39 @@ metaDataFormat= "yaml"
   enableKatex = true
   metaKeywords = "fast, hugo, theme, minimal, gruvbox"
   headerTitle = "Carlo Sulzbach Sartori"
-  copyright = "© 2021 Jane Doe.  <a href=\"https://creativecommons.org/licenses/by/4.0/\">Some rights reserved</a>."
+  copyright = "© 2021 Carlo S. Sartori.  <a href=\"https://creativecommons.org/licenses/by/4.0/\">Some rights reserved</a>. Built on top of Gruvhugo for Hugo."
   name = "jane_doe"
   img = "img/author.jpg"
-  img_title = "Thanks to Christina @ wocintechchat.com for this photo."
+  img_title = "Here I am."
   icon = "img/logo.png"
-  quote = "A nice quote that you like that describes the beautiful person you are."
-  description= "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Venenatis urna cursus eget nunc scelerisque viverra mauris in aliquam. Quis risus sed vulputate odio ut. Sed turpis tincidunt id aliquet risus feugiat in ante metus. Bibendum at varius vel pharetra vel turpis. Semper viverra nam libero justo laoreet sit amet cursus. Mauris a diam maecenas sed enim ut sem."
+  quote = "Computer science & operations research"
+  description= "Hello there. I am a PhD student at KU Leuven (Belgium) within the Department of Computer Science (Engineering Technology). My supervisors are Prof. Dr. Greet Vanden Berghe and Dr. Pieter Smet. My current research focuses on driver scheduling and vehicle routing with emphasis on human factors including: break scheduling, rest requirements and workload balancing. Prior to that, I earned my BSc. and MSc. in Computer Science from Universidade Federal do Rio Grande do Sul (Brazil) under the supervision of Prof. Dr. Luciana S. Buriol researching topics related to vehicle routing problems."
   licenseUrl = ""
 
  # Social icons
-  [[params.social]]
-    name = "gitlab"
-    url  = "https://gitlab.com/avron/gruvhugo"
-
-  [[params.social]]
+ [[params.social]]
     name = "email"
-    url  = "mailto:mail@mail.com"
+    url  = "mailto:carlo.sartori@cs.kuleuven.be"
 
   [[params.social]]
-    name = "gpg"
-    url  = "https://keys.openpgp.org/"
+    name = "orcid"
+    url  = "https://orcid.org/0000-0003-2140-2925"
 
   [[params.social]]
-    name = "twitter"
-    url  = "https://twitter.com/"
+    name = "google-scholar"
+    url  = "https://scholar.google.com.br/citations?user=mmqi7goAAAAJ&hl=en"
+
+  [[params.social]]
+    name = "lattes"
+    url  = "http://lattes.cnpq.br/2600733447361615"
 
   [[params.social]]
     name = "github"
-    url  = "https://github.com/"
+    url  = "https://github.com/cssartori/"
 
   [[params.social]]
     name = "linkedin"
-    url  = "https://www.linkedin.com/"
+    url  = "https://www.linkedin.com/in/cssartori/"
 
 [params.style]
   # add path to custom CSS files here
@@ -72,19 +72,19 @@ metaDataFormat= "yaml"
 
 [menu]
   [[menu.main]]
-    identifier = "about"
-    name       = "About"
-    url        = "about"
+    identifier = "publications"
+    name       = "Publications"
+    url        = "https://scholar.google.com.br/citations?user=mmqi7goAAAAJ&hl=en"
 
-  [[menu.main]]
-    identifier = "posts"
-    name       = "Posts"
-    url        = "post/"
+  # [[menu.main]]
+  #   identifier = "posts"
+  #   name       = "Posts"
+  #   url        = "post/"
 
-  [[menu.main]]
-    identifier = "wiki"
-    name       = "Wiki"
-    url        = "none"
+  # [[menu.main]]
+  #   identifier = "wiki"
+  #   name       = "Wiki"
+  #   url        = "none"
 
 [markup]
   defaultMarkdownHandler = "goldmark"
