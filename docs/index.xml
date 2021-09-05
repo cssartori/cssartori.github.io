@@ -6,6 +6,18 @@
     <description>Recent posts from on Carlo Sulzbach Sartori</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 04 Sep 2021 22:19:41 +0200</lastBuildDate><atom:link href="https://cssartori.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 05 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://cssartori.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Webpage is now live</title>
+      <link>https://cssartori.github.io/post/markdown-syntax/</link>
+      <pubDate>Sun, 05 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://cssartori.github.io/post/markdown-syntax/</guid>
+      <description>&lt;p&gt;My webpage is now officially live via Github pages.&lt;/p&gt;
+&lt;h2 id=&#34;live&#34;&gt;Live&lt;/h2&gt;
+&lt;p&gt;First, experimental post to my new professionally-oriented webpage.&lt;/p&gt;
+&lt;p&gt;I still need to update my CV file and set up some other parts of the site. However, the basic functionalities are here.&lt;/p&gt;</description>
+    </item>
+    
   </channel>
 </rss>

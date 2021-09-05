@@ -30,8 +30,8 @@ metaDataFormat= "yaml"
   enableKatex = true
   metaKeywords = "fast, hugo, theme, minimal, gruvbox"
   headerTitle = "Carlo Sulzbach Sartori"
-  copyright = "© 2021 Carlo S. Sartori.  <a href=\"https://creativecommons.org/licenses/by/4.0/\">Some rights reserved</a>. Built on top of Gruvhugo for Hugo."
-  name = "jane_doe"
+  copyright = "© 2021 Carlo S. Sartori.  <a href=\"https://creativecommons.org/licenses/by/4.0/\">Some rights reserved</a>. Built on top of <a href=\"https://themes.gohugo.io/themes/gruvhugo/\">Gruvhugo</a> using <a href=\"https://gohugo.io/\">Hugo</a>."
+  name = "carlo_sulzbach_sartori"
   img = "img/author.jpg"
   img_title = "Here I am."
   icon = "img/logo.png"
@@ -76,15 +76,15 @@ metaDataFormat= "yaml"
     name       = "Publications"
     url        = "https://scholar.google.com.br/citations?user=mmqi7goAAAAJ&hl=en"
 
-  # [[menu.main]]
-  #   identifier = "posts"
-  #   name       = "Posts"
-  #   url        = "post/"
+  [[menu.main]]
+    identifier = "posts"
+    name       = "Posts"
+    url        = "post/"
 
-  # [[menu.main]]
-  #   identifier = "wiki"
-  #   name       = "Wiki"
-  #   url        = "none"
+  [[menu.main]]
+    identifier = "cv"
+    name       = "Curriculum Vitae"
+    url        = "http://lattes.cnpq.br/2600733447361615"
 
 [markup]
   defaultMarkdownHandler = "goldmark"
