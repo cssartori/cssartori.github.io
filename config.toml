@@ -84,7 +84,7 @@ metaDataFormat= "yaml"
   [[menu.main]]
     identifier = "cv"
     name       = "Curriculum Vitae"
-    url        = "http://lattes.cnpq.br/2600733447361615"
+    url        = "https://github.com/cssartori/cssartori.github.io/blob/master/data/cv.pdf"
 
 [markup]
   defaultMarkdownHandler = "goldmark"
