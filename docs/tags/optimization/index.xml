@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>optimization on Carlo Sulzbach Sartori</title>
+    <link>https://cssartori.github.io/tags/optimization/</link>
+    <description>Recent content in optimization on Carlo Sulzbach Sartori</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 14 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://cssartori.github.io/tags/optimization/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Short industry-related projects</title>
+      <link>https://cssartori.github.io/projects/project-4/</link>
+      <pubDate>Thu, 14 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://cssartori.github.io/projects/project-4/</guid>
+      <description>&lt;h1 id=&#34;short-industry-related-projects&#34;&gt;Short industry-related projects&lt;/h1&gt;</description>
+    </item>
+    
+    <item>
+      <title>Metaheuristics for PDPTW</title>
+      <link>https://cssartori.github.io/projects/project-1/</link>
+      <pubDate>Tue, 27 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://cssartori.github.io/projects/project-1/</guid>
+      <description>&lt;h1 id=&#34;metaheuristic-methods-to-solve-pickup-and-delivery-problems-with-time-windows&#34;&gt;Metaheuristic methods to solve pickup and delivery problems with time windows&lt;/h1&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

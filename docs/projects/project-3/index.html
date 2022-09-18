@@ -3,9 +3,9 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     
-        <title>index | Carlo Sulzbach Sartori</title>
-        <meta name="description" content="index">
-        <meta property="og:site_name" content="index" />
+        <title>Truck driver scheduling | Carlo Sulzbach Sartori</title>
+        <meta name="description" content="Truck driver scheduling">
+        <meta property="og:site_name" content="Truck driver scheduling" />
         <meta property="og:title" content="Carlo Sulzbach Sartori" />
         <meta property="og:description" content="Hello there. I am a PhD student at KU Leuven (Belgium) within the Department of Computer Science (Engineering Technology). My supervisors are Prof. Dr. Greet Vanden Berghe and Dr. Pieter Smet. My current research focuses on driver scheduling and vehicle routing with complex timing constraints and an emphasis on human factors, including: break scheduling, rest requirements and workload balancing. Prior to that, I earned my BSc. and MSc. in Computer Science from Universidade Federal do Rio Grande do Sul (Brazil) under the supervision of Prof. Dr. Luciana S. Buriol researching topics related to vehicle routing problems."/>
         <meta property="og:image" content="https://cssartori.github.io/img/author.jpg" />
@@ -34,7 +34,6 @@
     
 
     
-    <link rel="alternate" type="application/rss+xml" href="https://cssartori.github.io/tags/index/index.xml" title="Carlo Sulzbach Sartori" />
     </head>
 
 <body>
@@ -81,31 +80,35 @@
   });
 </script>
 
-<br>
-<p>Below you will find some of the projects I have worked on during my career as a computer scientist and operations researcher:</p>
-    <h2 class="post-title"><a class="go-back" href="https://cssartori.github.io/">
-        <i class="far fa-caret-square-left"></i> </a>index</h2>
-        
-        
-          
-            <div class="post-item">
-              
-                <well class="well">
-                  <h3><a class="link" href="https://cssartori.github.io/projects/">Projects</a>
-                    
-                  </h3>
-                    <h4>January 1, 0001 -- reading time: 1 min </h4>
-                    <span class="tags">
-                        
-                        <h5><a class="tag" href='https://cssartori.github.io/tags/index'>index</a></h5>
-                        
-                    </span>
-                    
-                </well>
-                            
-            </div><br>
-          
-        
+<section class="intro">
+    
+    <div>
+        <h1 id="truck-driver-scheduling">Truck driver scheduling</h1>
+<h3 id="break-scheduling-with-interdependent-routes">Break scheduling with interdependent routes</h3>
+<p>Truck driver scheduling with interdependent routes was my first research topic in my PhD at KU Leuven. The problem was inspired by a real-world large transportation company in Belgium which needed an automated vehicle routing solver. Among their main requests was the fact that routes should comply with European Union regulations on driving time activities during single-day trips. Essentially this translates to the need of performing break scheduling and departure time selection for the drivers to comply with both resting requirements and maximum working hours.</p>
+<p>These driving constraints needed to be respect simultenously to customer time windows and possible synchronization between routes of multiple drivers. In VRP terms, routes could contain load transfers, creating a temporal dependency between them where decisions taken in one route (e.g., scheduling a break period) could have impacts in decision of other routes, leading to a highly complex scheduling problem. We have named this type of route dependency as <em>interdependent routes</em> and have been investigating related problems since then.</p>
+<p>We have developed two special-purpose algorithms for break scheduling. The first algorithm follows the Truck Driver Scheduling literature and employs a Label Propagation scheme. This worked well only when one type of interdependency constraint existed, namely, the minimum difference constraint which occurs in scenarios with load transfer. When more complex interdependency constraints arise, for example synchronization, overlap or min-max difference, then the label propagation method demonstrated limited performance.</p>
+<p>To solve more general types of interdependency, we identified properties of truck driver schedules and developed a Two-stage Algorithm based on recursive tree search. This method showed very promising results in all of our experiments while being conceptually simple.</p>
+<p>Our research on this topic has been published in:</p>
+<ol>
+<li>Sartori, C. S., Smet, P., &amp; Berghe, G. V. (2022). Scheduling truck drivers with interdependent routes under European Union regulations. <em>European Journal of Operational Research</em>, 298(1), 76-88.</li>
+<li>Sartori, C. S., Smet, P., &amp; Berghe, G. V. (2022). Truck driver scheduling with interdependent routes and working time constraints. <em>EURO Journal on Transportation and Logistics</em>, 100092.</li>
+</ol>
+<h3 id="duration-based-workload-balancing-with-interdependent-routes">Duration-based workload balancing with interdependent routes</h3>
+<p>In addition to break scheduling, another topic which we touched upon during my PhD research was workload balancing in the context of interdependent routes. In this case, we investigated how to evaluate the workload of drivers whose routes are interdependent and the workload metric is the route&rsquo;s duration. The goal is to define the starting time of each route (or driver&rsquo;s shift) to comply with all constraints and minimize one of the two objective function:</p>
+<ol>
+<li>Min-max: minimize the longest route duration.</li>
+<li>Range: minimize the difference between the longest and shortest route.</li>
+</ol>
+<p>We presented three approaches to compute these objective functions and provided experimental results comparing the methods to understand which one works best when solving VRPs in practice. The full study has been published in the ALGO/ATMOS 21 conference:</p>
+<ul>
+<li>Sartori, C., Smet, P., &amp; Vanden Berghe, G. (2021). Efficient Duration-Based Workload Balancing for Interdependent Vehicle Routes. In <em>21st Symposium on Algorithmic Approaches for Transportation Modelling, Optimization, and Systems (ATMOS 2021)</em> (Vol. 96, pp. 1-15). Dagstuhl Open Access Series in Informatics.</li>
+</ul>
+<h3 id="achievements">Achievements</h3>
+<p>Our paper on workload balancing received the <a href="https://drops.dagstuhl.de/opus/volltexte/2021/14869/pdf/OASIcs-ATMOS-2021-0.pdf">Best Paper Award</a> at the ALGO/ATMOS 21 conference.</p>
+    </div>
+    
+</section>
 <footer id="footer">
     <strong></strong>
     <div class="social">

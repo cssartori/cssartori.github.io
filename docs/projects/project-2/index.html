@@ -3,9 +3,9 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     
-        <title>index | Carlo Sulzbach Sartori</title>
-        <meta name="description" content="index">
-        <meta property="og:site_name" content="index" />
+        <title>Vehicle routing planner for uMov.me | Carlo Sulzbach Sartori</title>
+        <meta name="description" content="Vehicle routing planner for uMov.me">
+        <meta property="og:site_name" content="Vehicle routing planner for uMov.me" />
         <meta property="og:title" content="Carlo Sulzbach Sartori" />
         <meta property="og:description" content="Hello there. I am a PhD student at KU Leuven (Belgium) within the Department of Computer Science (Engineering Technology). My supervisors are Prof. Dr. Greet Vanden Berghe and Dr. Pieter Smet. My current research focuses on driver scheduling and vehicle routing with complex timing constraints and an emphasis on human factors, including: break scheduling, rest requirements and workload balancing. Prior to that, I earned my BSc. and MSc. in Computer Science from Universidade Federal do Rio Grande do Sul (Brazil) under the supervision of Prof. Dr. Luciana S. Buriol researching topics related to vehicle routing problems."/>
         <meta property="og:image" content="https://cssartori.github.io/img/author.jpg" />
@@ -34,7 +34,6 @@
     
 
     
-    <link rel="alternate" type="application/rss+xml" href="https://cssartori.github.io/tags/index/index.xml" title="Carlo Sulzbach Sartori" />
     </head>
 
 <body>
@@ -81,31 +80,20 @@
   });
 </script>
 
-<br>
-<p>Below you will find some of the projects I have worked on during my career as a computer scientist and operations researcher:</p>
-    <h2 class="post-title"><a class="go-back" href="https://cssartori.github.io/">
-        <i class="far fa-caret-square-left"></i> </a>index</h2>
-        
-        
-          
-            <div class="post-item">
-              
-                <well class="well">
-                  <h3><a class="link" href="https://cssartori.github.io/projects/">Projects</a>
-                    
-                  </h3>
-                    <h4>January 1, 0001 -- reading time: 1 min </h4>
-                    <span class="tags">
-                        
-                        <h5><a class="tag" href='https://cssartori.github.io/tags/index'>index</a></h5>
-                        
-                    </span>
-                    
-                </well>
-                            
-            </div><br>
-          
-        
+<section class="intro">
+    
+    <div>
+        <h1 id="vehicle-routing-planner-for-umovme">Vehicle routing planner for uMov.me</h1>
+<h3 id="the-project">The project</h3>
+<p><a href="https://www.umov.me/">uMov.me</a> is a software company with headquarters located in the south of Brazil, in the city of Porto Alegre. They offer codeless solutions for a wide variety of customers in Brazil including large retailers, pharmaceutical chain companies and logistic players.</p>
+<p>Among their components is an automated vehicle routing planner. In 2019, I was hired by uMov.me to provide specialized Operations Research consultancy, implement and integrate an efficient vehicle routing planner into their platform to replace their previous routing technology. This project heavily used the knowledge I had developed during my BSc. and MSc. research projects.</p>
+<p>The solver deals with many common real-world constraints in VRPs, such as time windows, vehicle capacity, pickup and delivery (paired precedences), drivers&rsquo; breaks and rest periods, maximum working hours, multiple depots and flexible departure locations. In terms of objectives, one may minimize distance travelled, makespan or number of vehicles used. The solver itself uses metaheuristic techniques to provide fast, good quality and feasible solutions. In particular, it employs a combination of Iterated Local Search, Large Neighborhood Search and a specialized procedure to minimize vehicle usage. The final framework of uMov.me further allows customers to reoptimize routes in case of disruptions or last-minute orders through an intuitive user interface.</p>
+<h3 id="the-outcome">The outcome</h3>
+<p>The routing planner, named <em>VRPlanner</em>, is actively used by many of uMov.me&rsquo;s customers together with other applications provided by the company, including tracking of the driver location, digital signature, photos, SMS,  and a lot more. For some of uMov.me&rsquo;s customers these codeless applications assisted business growth thereby helping the local economy in Brazil.</p>
+<p>In addition to this direct impact to uMov.me&rsquo;s customers, uMov.me made available a <a href="https://rotas.umov.me/">free version of VRPlanner</a> so that smaller business and the community can make use of the technology, while other medium and large sized business can get to know the tool and check whether it can be a valuable asset in their operations in which case they may signup for the full-fledged VRPlanner solver.</p>
+    </div>
+    
+</section>
 <footer id="footer">
     <strong></strong>
     <div class="social">
