@@ -1,7 +1,8 @@
 {{define "main"}}
 <br>
+<p>Below you will find some of the projects I have worked on during my career as a computer scientist and operations researcher:</p>
     <h2 class="post-title"><a class="go-back" href="{{ .Site.BaseURL }}">
-	<i class="far fa-caret-square-left"></i> </a>{{.Title}}</h2>
+        <i class="far fa-caret-square-left"></i> </a>{{.Title}}</h2>
         <!-- List all tags -->
         {{if eq .Kind "taxonomyTerm"}}
           {{range $key, $value := .Data.Terms.Alphabetical}}
@@ -10,17 +11,18 @@
         {{else}}
           {{ range .Pages}}
             <div class="post-item">
-              {{if eq .Section "post"}}
+              {{if eq .Section "projects"}}
                 <well class="well">
                   <h3><a class="link" href="{{.Permalink}}">{{.Title}}</a>
-                    by <a class="link" href="{{ .Params.AuthorUrl }}">{{ .Params.Author }}</a></h3>
-                    <h4>{{ .PublishDate.Format "January 2, 2006" }} | Reading Time: {{.ReadingTime}} min </h4>
+                    <!-- by <a class="link" href="{{ .Params.AuthorUrl }}">{{ .Params.Author }}</a> -->
+                  </h3>
+                    <h4>{{ .PublishDate.Format "January 2, 2006" }} -- reading time: {{.ReadingTime}} min </h4>
                     <span class="tags">
                         {{range .Params.Tags }}
                         <h5><a class="tag" href='{{ "tags/" | absURL }}{{.}}'>{{.}}</a></h5>
                         {{end}}
                     </span>
-                    <p>{{ .Summary }}</p>
+                    <!-- <p>{{ .Summary }}</p> -->
                 </well>
                 {{end}}            
             </div><br>

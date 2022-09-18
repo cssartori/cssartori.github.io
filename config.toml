@@ -33,10 +33,10 @@ metaDataFormat= "yaml"
   copyright = "© 2021 Carlo S. Sartori.  <a href=\"https://creativecommons.org/licenses/by/4.0/\">Some rights reserved</a>. Built on top of <a href=\"https://themes.gohugo.io/themes/gruvhugo/\">Gruvhugo</a> using <a href=\"https://gohugo.io/\">Hugo</a>."
   name = "carlo_sulzbach_sartori"
   img = "img/author.jpg"
-  img_title = "Here I am."
+  img_title = "Hello there."
   icon = "img/logo.png"
-  quote = "Computer science & operations research"
-  description= "Hello there. I am a PhD student at KU Leuven (Belgium) within the Department of Computer Science (Engineering Technology). My supervisors are Prof. Dr. Greet Vanden Berghe and Dr. Pieter Smet. My current research focuses on driver scheduling and vehicle routing with emphasis on human factors including: break scheduling, rest requirements and workload balancing. Prior to that, I earned my BSc. and MSc. in Computer Science from Universidade Federal do Rio Grande do Sul (Brazil) under the supervision of Prof. Dr. Luciana S. Buriol researching topics related to vehicle routing problems."
+  quote = "Computer science, optimization and operations research"
+  description= "Hello there. I am a PhD student at KU Leuven (Belgium) within the Department of Computer Science (Engineering Technology). My supervisors are Prof. Dr. Greet Vanden Berghe and Dr. Pieter Smet. My current research focuses on driver scheduling and vehicle routing with complex timing constraints and an emphasis on human factors, including: break scheduling, rest requirements and workload balancing. Prior to that, I earned my BSc. and MSc. in Computer Science from Universidade Federal do Rio Grande do Sul (Brazil) under the supervision of Prof. Dr. Luciana S. Buriol researching topics related to vehicle routing problems."
   licenseUrl = ""
 
  # Social icons
@@ -71,19 +71,19 @@ metaDataFormat= "yaml"
   custom_scss = []
 
 [menu]
-  [[menu.main]]
-    identifier = "publications"
-    name       = "Publications"
-    url        = "https://scholar.google.com.br/citations?user=mmqi7goAAAAJ&hl=en"
+  # [[menu.main]]
+  #   identifier = "publications"
+  #   name       = "Publications"
+  #   url        = "https://scholar.google.com.br/citations?user=mmqi7goAAAAJ&hl=en"
 
   [[menu.main]]
-    identifier = "posts"
-    name       = "Posts"
-    url        = "post/"
+    identifier = "projects"
+    name       = "Projects"
+    url        = "projects/"
 
   [[menu.main]]
     identifier = "cv"
-    name       = "Curriculum Vitae"
+    name       = "Résumé"
     url        = "https://github.com/cssartori/cssartori.github.io/blob/master/data/cv.pdf"
 
 [markup]
